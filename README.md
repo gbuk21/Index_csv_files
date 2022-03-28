@@ -1,4 +1,4 @@
-              Index csv files with relational data
+              **Index csv files with relational data**
 
 For the scenarios where you need to keep the input csv,tsv files intact but need to query those files for auditing using a selection criteria, you will need to build indexes on those files. For example, if you need to gather inventory information for a store and item. If there are a large number of stores and items, this process could be time taking depending on the hardware resources and the type of the system you have.
 Following describes a method to do so using python libraries mmap, pandas and SQLITE.
